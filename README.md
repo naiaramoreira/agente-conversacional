@@ -22,10 +22,6 @@ Crie um arquivo chamado `.env` na raiz do projeto e adicione sua chave da LLM:
 ```env
 OPENAI_API_KEY="sua_chave_aqui"
 ```
-
-> ⚠️ **Atenção:** nunca faça commit do `.env` em repositórios públicos.  
-> Adicione ao `.gitignore` para evitar exposição acidental de credenciais.
-
 O projeto já carrega automaticamente o `.env` no `main.py`.
 
 ---
